@@ -14,7 +14,7 @@ function MovieList() {
     setMovies(filteredMovies);
   };
 
-  
+
   return (
     <div>
       <h2>Movie List</h2>
