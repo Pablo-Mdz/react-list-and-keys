@@ -18,7 +18,10 @@ function App() {
 
 export default App;
 
-
+<div className='App'/>
+{tweetsArray.map(tweet => (
+    <Tweet tweet={tweet}/>
+))}
 
 // const [movies, setMovies] = useState(moviesData)
 
